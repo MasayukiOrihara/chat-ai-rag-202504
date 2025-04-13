@@ -132,3 +132,5 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+@custom-variant hover (&:hover);
