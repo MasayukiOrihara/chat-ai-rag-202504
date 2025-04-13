@@ -10,6 +10,6 @@ export async function POST(req: Request) {
     model: openai('gpt-4o'),
     messages,
   });
- 
+
   return result.toDataStreamResponse();
 }
