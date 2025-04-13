@@ -2,6 +2,7 @@
 @import "tw-animate-css";
 
 @custom-variant dark (&:is(.dark *));
+@custom-variant hover (&:hover);
 
 @theme inline {
   --color-background: var(--background);
@@ -53,6 +54,10 @@ body {
 
 .font-host-grotesk {
   font-family: var(--font-host-grotesk), sans-serif;
+}
+
+.custom-toast {
+  margin-top: 48px;
 }
 
 :root {
@@ -132,5 +137,3 @@ body {
     @apply bg-background text-foreground;
   }
 }
-
-@custom-variant hover (&:hover);
