@@ -1,6 +1,7 @@
+import { Host_Grotesk, Noto_Sans_JP } from 'next/font/google'
+
 import type { Metadata } from "next";
-import { Host_Grotesk, Noto_Sans_JP } from 'next/font/google';
-import "./globals.css";
+import "./globals.css"
 
 const notoSansJp = Noto_Sans_JP({
     variable: '--font-noto-sans-jp',
