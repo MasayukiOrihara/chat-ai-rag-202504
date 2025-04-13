@@ -13,8 +13,6 @@ export default function Home() {
         >
           Click me!
         </Button>
-
-        <button>Hover Button</button>
       </div>
     </div>
   );
